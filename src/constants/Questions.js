@@ -63,6 +63,15 @@ export const Questions = [
   ],
 },
 {
+  questionText: 'Qual país eu gostaria de morar??',
+  answerOptions: [
+    { answerText: 'Canadá', isCorrect: true },
+    { answerText: 'Itália', isCorrect: false },
+    { answerText: 'Alemanha', isCorrect: false },
+    { answerText: 'França', isCorrect: false },
+  ],
+},
+{
   questionText: 'Qual minha série favorita?',
   answerOptions: [
     { answerText: 'Breaking Bad', isCorrect: false },
@@ -114,6 +123,51 @@ export const Questions = [
     { answerText: 'Policial', isCorrect: true },
     { answerText: 'Astronauta', isCorrect: false },
     { answerText: 'Militar', isCorrect: false },
+  ],
+},
+{
+  questionText: 'Qual a minha bebida favorita?',
+  answerOptions: [
+    { answerText: 'Gin', isCorrect: false },
+    { answerText: 'Cerveja', isCorrect: false },
+    { answerText: 'Whisky', isCorrect: true },
+    { answerText: 'Run', isCorrect: false },
+  ],
+},
+{
+  questionText: 'Qual meu estilo favorite de música?',
+  answerOptions: [
+    { answerText: 'Lo-fi', isCorrect: false },
+    { answerText: 'Rock', isCorrect: true },
+    { answerText: 'Pagode', isCorrect: false },
+    { answerText: 'Samba', isCorrect: false },
+  ],
+},
+{
+  questionText: 'Qual a minha comida favorita? é a meu  era a sua profissão dos sonhos na infância?',
+  answerOptions: [
+    { answerText: 'Pizza', isCorrect: true },
+    { answerText: 'Sushi', isCorrect: false },
+    { answerText: 'Churrasco', isCorrect: false },
+    { answerText: 'Lasanha', isCorrect: false },
+  ],
+},
+{
+  questionText: 'Qual era a sua profissão dos sonhos na infância?',
+  answerOptions: [
+    { answerText: 'Bombeiro', isCorrect: false },
+    { answerText: 'Policial', isCorrect: true },
+    { answerText: 'Astronauta', isCorrect: false },
+    { answerText: 'Militar', isCorrect: false },
+  ],
+},
+{
+  questionText: 'Qual a minha graduação atual no jiu jitsu?',
+  answerOptions: [
+    { answerText: 'Azul', isCorrect: false },
+    { answerText: 'Roxa', isCorrect: true },
+    { answerText: 'Marrom', isCorrect: false },
+    { answerText: 'Verde', isCorrect: false },
   ],
 },
 ];

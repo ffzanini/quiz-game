@@ -22,13 +22,13 @@ export default function App() {
 		<div className='app'>
 			{showScore ? (
 				<div className='score-section'>
-					Tu pontuou {score} de {Questions.length}
+					Parabéns! Tu conseguiu a pontução de {score} sobre {Questions.length} questões! Deseja responder uma última pergunta?
 				</div>
 			) : (
 				<>
 					<div className='question-section'>
 						<div className='question-count'>
-							<span>Questão: {currentQuestion + 1}</span>/{Questions.length}
+							<span>Questão: {currentQuestion + 1}/{Questions.length}</span>
 						</div>
 						<div className='question-text'>{Questions[currentQuestion].questionText}</div>
 					</div>
