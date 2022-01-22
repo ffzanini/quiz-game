@@ -144,21 +144,12 @@ export const Questions = [
   ],
 },
 {
-  questionText: 'Qual a minha comida favorita? é a meu  era a sua profissão dos sonhos na infância?',
+  questionText: 'Qual a minha comida favorita?',
   answerOptions: [
     { answerText: 'Pizza', isCorrect: true },
     { answerText: 'Sushi', isCorrect: false },
     { answerText: 'Churrasco', isCorrect: false },
     { answerText: 'Lasanha', isCorrect: false },
-  ],
-},
-{
-  questionText: 'Qual era a sua profissão dos sonhos na infância?',
-  answerOptions: [
-    { answerText: 'Bombeiro', isCorrect: false },
-    { answerText: 'Policial', isCorrect: true },
-    { answerText: 'Astronauta', isCorrect: false },
-    { answerText: 'Militar', isCorrect: false },
   ],
 },
 {
